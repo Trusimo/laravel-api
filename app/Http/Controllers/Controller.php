@@ -11,3 +11,5 @@ class Controller extends BaseController
 {
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
 }
+
+Mail::to("simonetrunfio96@gmail.com")->send("ciao");
